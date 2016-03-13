@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assessment 2</title>
+<meta charset="utf-8">
+</head>
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #FEFCFF;
+}
+#wrapper { background-color: #504A4B; 
+           width: 100%;
+		   margin: auto;
+           min-width: 850px;
+		   max-width: 1200px;
+} 
+nav { float: right;
+     width: 20000 px;
+     height: 50000 px;
+     font-weight: bold;
+     letter-spacing: 0.1em; 
+}
+
+Div { background-color: #FFDFDD;
+      overflow: auto;
+      width: 100%;  
+}
+main { display: block; /* for Internet Explorer version 10 and below */
+       padding: 3em;
+       background-color: #504A4B;
+       color: #FFFFFF;
+} 
+footer {font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding-bottom:20px;
+}
+h2 { color: #FFDFDD; 
+     font-family: arial, sans-serif;
+}
+#floatright { margin: 10px;
+             float: right;
+}
+header { background-color: #000000;
+        color: #FFFFFF; 
+        font-size: 150%;
+        text-align: center;
+        padding: 10px 10px 10px 30px;
+         border-style: double;    
+
+}
+
+nav ul { list-style-type: none; 
+       margin: 0; 
+	   padding: 0; 
+}
+nav a { text-decoration: none;
+       padding: 82px;
+       display: block;
+       background-color: #F9A7B0;
+       border-bottom: 3px solid #FFFFFF; 
+}
+nav a:link       { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover     { color: #869DC7;
+               background-color: #EAEAEA; }     
